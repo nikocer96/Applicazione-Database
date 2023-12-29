@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elimina</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <h2 class="titolo-aggiorna">Elimina Transazione</h2>
+    <div class="container-elimina">
+        <form action="/elimina" method="post">
+            <label for="id">ID</label>
+            <input type="number" name="id">
+            <button type="submit">Elimina</button>
+        </form>
+    </div>
+</body>
+<%- include("partial/footer.ejs") %>
+</html>

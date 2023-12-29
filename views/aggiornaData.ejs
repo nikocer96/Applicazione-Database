@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <h2 class="titolo-aggiorna">Aggiorna Data</h2>
+    <div class="data">
+        <form action="/data" method="post">
+            <label for="data">Nuova Data</label>
+            <input type="date" name="data">
+            <label for="id">Id</label>
+            <input type="number" name="id">
+            <button type="submit">Modifica</button>
+        </form>
+    </div>
+</body>
+<%- include("partial/footer.ejs") %>
+</html>

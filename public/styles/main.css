@@ -1,0 +1,106 @@
+body {
+    background-color: #d4d3d2;
+}
+
+#titolo {
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-menu {
+    color: white;
+}
+
+#table {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+table, th, td {
+    border: 1px solid black; /* Aggiungi bordi alla tabella, intestazioni e celle */
+    border-collapse: collapse; /* Fonde i bordi delle celle */
+    text-align: center; /* Centra il testo nelle celle */
+}
+
+.aggiungi-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    border-style: groove;
+}
+
+#data_mese {
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+#titolo-aggiungi {
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.titolo-visualizza {
+    font-size: 2rem;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.titolo-aggiorna {
+    font-size: 2rem;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container-visualizza {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    border-style: groove;
+}
+
+#container-aggiorna {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    border-style: groove;
+}
+
+input[type= "submit"] {
+    font-size: 20px;
+}
+
+.data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.importo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+} 
+
+.container-elimina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    border-style: groove;
+}

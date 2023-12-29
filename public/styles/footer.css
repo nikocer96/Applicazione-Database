@@ -1,0 +1,26 @@
+
+body {
+    margin: 0; /* Impedisce il margine predefinito del corpo */
+}
+
+#container-all {
+    background-color: #989898;
+    
+    /* Aggiunto testo bianco per una migliore visibilità sullo sfondo nero */
+    padding: 15px; /* Aggiunto padding per separare il contenuto dal bordo */
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+}
+
+#footer-paragrafo {
+    text-align: center; /* Centra il testo all'interno del footer */
+    
+}
+
+#footer-contact {
+    text-align: center; /* Centra il testo all'interno del footer */
+    margin-top: 15px; /* Aggiunto margine superiore per separare dal paragrafo */
+}
+

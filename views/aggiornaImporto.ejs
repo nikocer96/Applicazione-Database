@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Importo</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <h2 class="titolo-aggiorna">Aggiorna Importo</h2>
+    <div class="importo">
+        <form action="/importo" method="post">
+            <label for="importo">Nuovo Importo</label>
+            <input type="number" name="importo">
+            <label for="id">Id</label>
+            <input type="number" name="id">
+            <button type="submit">Modifica</button>
+        </form>
+    </div>
+</body>
+<%- include("partial/footer.ejs") %>
+</html>
